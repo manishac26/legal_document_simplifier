@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ===== Custom Global Styles for Legal App ===== */
+body {
+  @apply text-gray-800 font-sans;
+  background-image: url("/bg-imga.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+
+/* Overlay for readability */
+.bg-overlay {
+  @apply absolute inset-0 bg-black bg-opacity-40;
+}
+
+/* Card styling */
+.auth-card {
+  @apply bg-white/90 shadow-xl rounded-2xl border border-gray-200 p-8 backdrop-blur;
+}
+
+/* Headings */
+.auth-title {
+  @apply text-3xl font-bold text-gray-900 text-center mb-6;
+}
+
+/* Input fields */
+.auth-input {
+  @apply w-full border border-gray-300 px-4 py-2 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500 transition;
+}
+
+/* Buttons */
+.auth-btn {
+  @apply w-full bg-indigo-600 text-white py-2 rounded-md font-medium hover:bg-indigo-700 transition;
+}
+
+/* Link button */
+.auth-link {
+  @apply text-indigo-600 font-medium hover:underline;
+}

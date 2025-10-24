@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+
+# Backend specific
+Backend/__pycache__/
+Backend/*.pyc
+Backend/legal_app.db
+Backend/.venv
+
+# IDEs
+.vscode/
+.idea/
+
+# Node
+node_modules/
+/dist
+
+# OS files
+.DS_Store
+Thumbs.db
